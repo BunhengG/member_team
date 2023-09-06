@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thesis Team</title>
+    <!------ Font Awesome ------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!------ Google Fonts ------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!------ Stylesheet ------>
+    <link rel="stylesheet" href="style.css" />
+    <!------ Queries ------>
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <!------ Scroll To Top Button ------>
+    <button id="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <!------ Header ------>
+    <header>
+      <nav>
+        <a href="#home" id="logo">One Night strategy</a>
+        <i class="fas fa-bars" id="ham-menu"></i>
+        <ul id="nav-bar">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#features">Thesis</a>
+          </li>
+          <li>
+            <a href="#courses">Activity</a>
+          </li>
+          <li>
+            <a href="#testimonial">Team</a>
+          </li>
+          <li>
+            <a href="#download-app">Project</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!------ Section: Hero ------>
+    <section class="hero" id="home">
+      <img src="./img/header-shape.svg" id="header-shape" />
+      <div class="hero-content">
+        <h1>Let See Our Team</h1>
+        <p>
+          Our team's processing methodology is being executed in a collaborative and efficient manner.
+        </p>
+        <div class="btn-container">
+          <a href="#testimonial">
+          <button class="primary-btn btn">See Our Team</button>
+          </a>
+          <a href="#download-app">
+          <button class="secondary-btn btn">System Project</button>
+          </a>
+        </div>
+      </div>
+      <div class="hero-img">
+         <img src="./img/hero-image.svg" />
+      </div>
+    </section>
+    <!------ Section: Features ------>
+    <section class="features" id="features">
+      <h2>Why We Made </h2>
+      <p class="section-desc">
+        We made these to get successfully achieved the objective of obtaining all items below the target.
+      </p>
+      <div class="row">
+        <div class="column">
+          <i class="fas fa-star"></i>
+          <h3>New Knowledge</h3>
+          <p>
+            To acquire further knowledge, one must engage in continuous learning and seek out educational opportunities.
+          </p>
+        </div>
+        <div class="column">
+          <i class="fas fa-thumbs-up"></i>
+          <h3>Experiences</h3>
+          <p>
+            To acquire further experiences in order to enhance one's knowledge and skills.
+          </p>
+        </div>
+        <div class="column">
+          <i class="fas fa-graduation-cap"></i>
+          <h3>Graduate</h3>
+          <p>
+            To obtain a graduate degree, one must fulfill all academic requirements and successfully defend their thesis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!------ Section: Courses ------>
+    <section class="courses" id="courses">
+      <h2>Our Activity</h2>
+      <p class="section-desc">
+        With over 30,000 courses to choose from, check out out most popular
+        courses.
+      </p>
+      <div class="row">
+
+        <div class="column">
+          <img src="./img/team1.svg" />
+          <h3>Data Interrogation</h3>
+          <p>
+            Interrogation of data is a crucial process in analyzing and extracting meaningful insights from information.
+          </p>
+          <div class="courses-btn">
+            <button class="btn secondary-btn" id="showPopup">View Image</button>
+          </div>
+          <!-- //? View popup Image -->
+          <div id="popup" class="popup">
+            <span class="close" id="closePopup">&times;</span>
+            <img src="./img/team1.svg" alt="Popup Image">
+          </div>
+        </div>
+
+        <div class="column">
+          <img src="./img/team2.svg" />
+          <h3>Meeting with professors</h3>
+          <p>
+            "Convening with academic faculty members for discussion and collaboration on academic matters."
+          </p>
+          <div class="courses-btn">
+            <button class="btn secondary-btn" id="showPopup1">View Image</button>
+          </div>
+          <!-- //? View popup Image -->
+          <div id="popup1" class="popup">
+            <span class="close" id="closePopup1">&times;</span>
+            <img src="./img/team2.svg" alt="Popup Image">
+          </div>
+        </div>
+
+        <div class="column">
+          <img src="./img/team3.svg" />
+          <h3>Presentation of Thesis</h3>
+          <p>
+            The following is a formal presentation of the thesis, consisting of precisely 15 words. This is a formal presentation of the thesis.
+          </p>
+          <div class="courses-btn">
+            <button class="btn secondary-btn" id="showPopup2">View Image</button>
+          </div>
+           <!-- //? View popup Image -->
+           <div id="popup2" class="popup">
+            <span class="close" id="closePopup2">&times;</span>
+            <img src="./img/team3.svg" alt="Popup Image">
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!------ Section: Testimonial ------>
+    <section class="testimonial" id="testimonial">
+      <h2>Meet Our Team </h2>
+      <p class="section-desc">
+        These are the members of our team who possess a high level of expertise.
+      </p>
+
+      <div class="row mb-3">
+
+        <div class="column">
+          <div class="testimonial-image">
+            <img src="./img/vr_chomraorn.svg" />
+          </div>
+          <p>
+           <b>Mr.Vireak Chomrern</b> is a member who is smart, tall, and a bit thin, and he is a member who is developing system software and logical databases. His job is that of a graphic designer and video editor, and he has had many experiences since he was a student at USEA in year 3. He is working hard and clearly to make the system software step by step, following a standard template that the organization has needed to process. In the future, he wants to be richer.
+          </p>
+          <h3>Mr.Vireak Chomrern</h3>
+          <div class="social-links-intouch">
+            <a href="mailto:#chomrernvirak@gmail.com" target="_blank">
+             <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://t.me/C_O07" target="_blank">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="https://www.facebook.com/vireak.chomrern.5?mibextid=ZbWKwL" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="testimonial-image">
+            <img src="./img/bunheng_mai.svg" />
+          </div>
+          <p>
+            <b>Mr.Mai Bunheng</b> is a member who is smart, tall, and a bit fat, and he is a member who is developing system software and logical databases. His job is that of an app developer and web developer, and he has had many experiences since he was a student at USEA in year 3. He is working hard and clearly to make the system software step by step, following a standard template that the organization has needed to process. In the future, he wants to be richer.
+          </p>
+          <h3>Mr.Mai Bunheng</h3>
+          <div class="social-links-intouch">
+            <a href="mailto:maibunheng@gmail.com" target="_blank">
+             <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://t.me/hengKhunNathip" target="_blank">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="https://www.facebook.com/ly.yonghengll?mibextid=LQQJ4d" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="testimonial-image">
+            <img src="./img/pfSun Chomroaen.svg" />
+          </div>
+          <p>
+           <b> Mr.Sun Chomraoen </b> is a member who is smart, tall, and a bit thin, and he is a member who is developing the thesis book and design. His job is that of a graphic designer who has had many experiences since he was a student at USEA in year 2. He is working hard and clearly to write the thesis step by step, following a template that the university has given him. In the future, he wants to be a richer.
+          </p>
+          <h3>Mr.Sun Chomraoen</h3>
+          <div class="social-links-intouch">
+            <a href="mailto:chomraoen.it14@gmail.com" target="_blank">
+             <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://t.me/SUN_Chomraoen" target="_blank">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="https://www.facebook.com/SUNChomraoen2001?mibextid=D4KYlr" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="column">
+          <div class="testimonial-image">
+            <img src="./img/nakhim.svg" />
+          </div>
+          <p>
+          <b>Mr.Sokhom Nakhim</b> is a member who is very smart, tall, and a bit thin, and he is a member who is developing system software and logical databases. His job is to help his family. When he has free time and works as a web developer, he has had many experiences since he was a student at USEA in year 3. He is working hard and clearly to make the system software step by step, following a standard template that the organization has needed to process. In the future, he wants to be richer.
+          </p>
+          <h3>Mr.Sokhom Nakhim</h3>
+          <div class="social-links-intouch">
+            <a href="mailto:sokhomnakhim@gmail.com" target="_blank">
+             <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://t.me/SokhomNakhim" target="_blank">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100069124405733&mibextid=ZbWKwL" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="testimonial-image">
+            <img src="./img/sna.svg" />
+          </div>
+          <p>
+          <b>Mr.Sem Veasna</b> is a member who is very smart, tall, and a bit thin, and he is a member who is developing system software and logical databases. His job is to help his family. When he has free time and works in an organization, he has had many experiences with application software since he was a student at USEA in year 3. He is working hard and clearly to make the system software step by step, following a standard template that the organization has needed to process. In the future, he wants to be richer.
+          </p>
+          <h3>Mr.Sem Veasna</h3>
+          <div class="social-links-intouch">
+            <a href="mailto:veasnasemofficial@gmail.com" target="_blank">
+             <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://t.me/veasna_aa" target="_blank">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="https://www.facebook.com/sem.veasna.31?mibextid=LQQJ4d" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!------ Section: Download App ------>
+    <section class="download-app" id="download-app">
+      <h2>Our System Interface</h2>
+      <p class="section-desc">
+        Unloack all new amazing features with our Web app.
+      </p>
+      <div class="row">
+        <div class="column">
+          <img src="./img/dashboard.svg" />
+        </div>
+      </div>
+      <a style="display: flex; justify-content: center; text-decoration: none;" href="https://www.figma.com/proto/g7Ud4T7hMV22TUJ7s1diTy/SDLC-of-School-Management-System?page-id=0%3A1&node-id=12-2&starting-point-node-id=84%3A1295&scaling=scale-down&mode=design&t=UHZaDHygSPXsCn2m-1" target="_blank">
+        <button class="primary-btn btn">View System UI</button>
+      </a>
+    </section>
+    <!------ Footer ------>
+    <footer>
+      <div class="row footer-about">
+        <h3>One Night strategy</h3>
+        <p>
+          We are committed to delivering prompt and accurate results in a timely manner, adhering strictly to established guidelines and protocols. Our focus on efficiency and precision ensures that our clients receive the highest level of service and satisfaction.
+        </p>
+        <div class="social-links">
+          <a href="mailto:maibunheng@gmail.com" target="_blank">
+           <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://t.me/hengKhunNathip" target="_blank">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="https://www.facebook.com/ly.yonghengll?mibextid=LQQJ4d" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row footer-contact">
+        <div class="column">
+          <h4>Phone No</h4>
+          <p>+855 96 670 3883</p>
+        </div>
+        <div class="column">
+          <h4>Email</h4>
+          <p>maibunheng@gmail.com</p>
+        </div>
+      </div>
+      <p class="footer-copyright">
+        Copyright &copy; 2023 One Night strategy. All rights reserved.
+      </p>
+    </footer>
+    <!------ Script ------>
+    <script src="script.js"></script>
+  </body>
+</html>
